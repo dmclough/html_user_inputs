@@ -23,7 +23,8 @@
 
 
     <form action=success.html>
-      City
+      <label>
+        City:
         <select>
             <option value="Hong Kong">Hong Kong</option>
             <option value="London">London</option>
@@ -34,13 +35,16 @@
             <option value="Seattle">Seattle</option>
             <option value="Singapore">Singapore</option>
         </select>
+      <label>
 <br>
+
+      <label>
+        Course:
+        <input type="radio" name="Course" value="UX" checked>UX
+        <input type="radio" name="Course" value="Web Dev">Web Dev
+    </label>
 <br>
-      Course:
-      <input type="radio" name="Course" value="UX" checked>UX
-      <input type="radio" name="Course" value="Web Dev">Web Dev
-<br>
-<br>
+    <label>
       Name:
       <input type="text" name="Name" value=""><br>
       Email:
@@ -49,6 +53,7 @@
       <input type="password" name="Password" value=""><br>
       <input type="checkbox" name="subscribe" value="only checkbox" checked>Yes, subscribe me to the General Assembly student newsletter<br>
       <input type="submit" value="Subscribe">
+    </label>
     </form>
   </body>
 </html>
